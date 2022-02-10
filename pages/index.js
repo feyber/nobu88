@@ -22,7 +22,7 @@ export default function Home() {
       </Head>
       <div className="max-w-5xl mx-auto flex flex-col items-start justify-items-start p-4">
         <header className="py-8 px-0 md:px-4">
-          <nav className="flex lg:justify-start lg:items-start justify-center items-center scale-90 md:scale-100 ml-16 md:ml-0">
+          <nav className="flex lg:justify-start lg:items-start justify-center items-center ml-16 md:ml-0">
             <Link href="/" passHref>
               <a className="cursor-pointer ">
                 <Image
@@ -171,6 +171,86 @@ export default function Home() {
           </div>
         </div>
 
+        {/* informasi tambahan */}
+        <div className="w-full bg-gradient-to-r from-gold via-litegold to-golden py-6 px-6 rounded-lg">
+          <div className="md:flex gap-2">
+            <div className="md:w-1/2 ">
+              <h1 className="text-center mb-5 md:mb-12 text-xl md:text-4xl drop-shadow-sm mt-4">
+                MORE INFORMATION
+              </h1>
+              <p className=" border-b-2 border-black mb-3 md:mb-8 md:text-xl bg-gray-300 px-1">
+                NAMA : NOBU88
+              </p>
+              <p className=" border-b-2 border-black mb-3 md:mb-8 md:text-xl bg-gray-300 px-1">
+                WEBSITE URL :{" "}
+                <a href="https://188.166.211.237">https://188.166.211.237</a>
+              </p>
+              <p className=" border-b-2 border-black mb-3 md:mb-8 md:text-xl bg-gray-300 px-1">
+                NEGARA : INDONESIA
+              </p>
+              <p className=" border-b-2 border-black mb-3 md:mb-8 md:text-xl bg-gray-300 px-1">
+                MIN DEPOSIT : RP. 20.000
+              </p>
+              <p className=" border-b-2 border-black mb-3 md:mb-8 md:text-xl bg-gray-300 px-1">
+                MIN WITHDRAW : RP. 50.000
+              </p>
+              <p className=" border-b-2 border-black mb-3 md:mb-8 md:text-xl bg-gray-300 px-1">
+                DEPOSIT VIA : BANK, PULSA, E-WALLET
+              </p>
+              <p className=" border-b-2 border-black mb-12 md:mb-8 md:text-xl bg-gray-300 px-1">
+                PLATFORM : WINDOWS, IOS, ANDROID
+              </p>
+            </div>
+            <div className="md:w-1/2 flex flex-col gap-2">
+              <div className="relative flex flex-col text-center items-center justify-center bg-gray-100 py-4 px-14 rounded shadow-md">
+                <p className="text-[14px] underline font-extrabold absolute top-6 -left-2 text-red-600 -rotate-45">
+                  AMAN 100 %
+                </p>
+                <p className="text-xl md:text-2xl mb-3">Min. DEPOSIT</p>
+                <div className="w-full bg-red-700 py-1 rounded mb-2">
+                  <p className="text-white text-center md:text-xl">Rp 10.000</p>
+                </div>
+                <p className="text-sm md:text-md mb-2 text-center border-b-2 ">
+                  Proses Cepat
+                </p>
+                <p className="text-sm md:text-md mb-2 text-center border-b-2 ">
+                  Cs Baik & Ramah
+                </p>
+
+                <p className="text-sm md:text-md mb-3 text-center border-b-2 ">
+                  Support <span className="font-semibold">24 Jam Nonstop</span>
+                </p>
+                <p className=" w-32 text-white bg-red-700 py-2 text-sm md:text-md rounded text-center">
+                  <a href="https://188.166.211.237/invite/zaz8dmz">JOIN NOW</a>
+                </p>
+              </div>
+              <div className="relative flex flex-col text-center items-center justify-center bg-gray-100 py-4 px-14 rounded shadow-md">
+                <p className="text-[14px] underline font-extrabold absolute top-6 -left-2 text-red-600 -rotate-45">
+                  AMAN 100 %
+                </p>
+                <p className="text-xl md:text-2xl mb-3">Min. WITHDRAW</p>
+                <div className="w-full bg-red-700 py-1 rounded mb-2">
+                  <p className="text-white text-center md:text-xl">Rp 50.000</p>
+                </div>
+                <p className="text-sm md:text-md mb-2 text-center border-b-2 ">
+                  Langsung Proses
+                </p>
+                <p className="text-sm md:text-md mb-2 text-center border-b-2 ">
+                  Pelayanan Cepat
+                </p>
+
+                <p className="text-sm md:text-md mb-3 text-center border-b-2 ">
+                  Data <span className="font-semibold">100% Aman</span>
+                </p>
+                <p className=" w-32 text-white bg-red-700 py-2 text-md rounded text-center">
+                  <a href="https://188.166.211.237/invite/zaz8dmz">JOIN NOW</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* description */}
         <div className="p-4 md:p-8 lg:p-4 mx-auto flex flex-col justify-center items-center mt-10">
           <div className="relative group ">
             <div className="absolute md:-inset-1 -inset-0 bg-gradient-to-r from-gold via-litegold to-golden rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-700 group-hover:duration-200 animate-tilt"></div>
@@ -221,7 +301,7 @@ export default function Home() {
       {/* Ini footer */}
       <footer className="mx-auto mt-10 mb-2 flex justify-center items-center text-yellow-50 text-xs md:text-base lg:text-lg">
         <div>
-          Copyright &copy; 2021{" "}
+          Copyright &copy; 2022{" "}
           <a
             href="https://188.166.211.237/invite/zaz8dmz"
             className="text-yellow-100"
