@@ -22,9 +22,9 @@ export default function Home() {
       </Head>
       <div className="max-w-5xl mx-auto flex flex-col items-start justify-items-start p-4">
         <header className="py-8 px-0 md:px-4">
-          <nav className="flex lg:justify-start lg:items-start justify-center items-center">
+          <nav className="flex lg:justify-start lg:items-start justify-center items-center scale-90 md:scale-100 ml-16 md:ml-0">
             <Link href="/" passHref>
-              <a className="cursor-pointer">
+              <a className="cursor-pointer ">
                 <Image
                   src="/nobu88.png"
                   alt="Logo Nobu88"
@@ -39,9 +39,53 @@ export default function Home() {
         {/* hero */}
         <div className="mx-auto flex flex-col justify-center items-center">
           <div className="w-full text-center bg-gradient-to-r from-gold via-litegold to-golden py-4 px-4 rounded-lg">
-            <h1 className="uppercase text-xs lg:text-3xl font-bold text-black hover:text-gray-900 w-full md:scale-105 md:hover:scale-95 duration-200">
+            <h1 className="uppercase text-md lg:text-3xl font-bold text-black hover:text-gray-900 w-full md:scale-105 md:hover:scale-95 duration-200">
               NOBU88 Situs Judi Slot Online Terlengkap & Terpercaya
             </h1>
+          </div>
+
+          {/* login & register */}
+          <div className="container flex justify-center items-center text-center gap-2 mt-8">
+            <a
+              href="https://188.166.211.237/invite/zaz8dmz"
+              className=" flex flex-col md:flex-row  ring-2 ring-yellow-500 duration-500 ring-opacity-50 focus:ring-offset-2 hover:ring-opacity-100  items-center justify-center w-1/4 bg-gradient-to-r from-gold via-litegold to-golden text-2xl rounded-lg h-24"
+            >
+              <span className="mr-1">
+                {" "}
+                <Image src="/login.png" alt="login" width="50" height="50" />
+              </span>{" "}
+              <p className="text-xs md:text-base lg:text-lg">Login</p>
+            </a>
+            <a
+              href="https://188.166.211.237/invite/zaz8dmz"
+              className=" flex flex-col md:flex-row items-center ring-2 duration-500 ring-yellow-500 ring-opacity-50 focus:ring-offset-2 hover:ring-opacity-100 justify-center w-1/4 bg-gradient-to-r from-gold via-litegold to-golden text-2xl rounded-lg h-24"
+            >
+              <span className="mr-1">
+                {" "}
+                <Image src="/register.png" alt="login" width="50" height="50" />
+              </span>{" "}
+              <p className="text-xs md:text-base lg:text-lg">Daftar</p>
+            </a>
+            <a
+              href="https://direct.lc.chat/13023216/"
+              className=" flex flex-col md:flex-row items-center justify-center w-1/4 bg-gradient-to-r from-gold via-litegold to-golden text-2xl rounded-lg h-24"
+            >
+              <span className="mr-1">
+                {" "}
+                <Image src="/cs.png" alt="login" width="50" height="50" />
+              </span>{" "}
+              <p className="text-xs md:text-base lg:text-lg">Kontak CS</p>
+            </a>
+            <a
+              href="https://wa.me/6282122014931"
+              className=" flex flex-col md:flex-row items-center justify-center w-1/4 bg-gradient-to-r from-gold via-litegold to-golden text-2xl rounded-lg h-24"
+            >
+              <span className="mr-1">
+                {" "}
+                <Image src="/wa.png" alt="login" width="50" height="50" />
+              </span>{" "}
+              <p className="text-xs md:text-base lg:text-lg">Whatsapp</p>
+            </a>
           </div>
 
           <div className="flex flex-col md:flex-row justify-between mx-auto items-center mt-8 mb-12">
@@ -116,57 +160,14 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="hidden lg:block scale-110 hover:scale-105 duration-500">
+            <div className="hidden lg:block scale-110 hover:scale-105 duration-500 p-8">
               <Image
-                src="/slot.gif"
+                src="/slot1.gif"
                 alt="tunjukin tempat slot"
-                width="600"
-                height="500"
+                width="500"
+                height="400"
               />
             </div>
-          </div>
-          {/* login & register */}
-          <div className="container flex justify-center items-center text-center gap-2">
-            <a
-              href="https://188.166.211.237/invite/zaz8dmz"
-              className=" flex flex-col md:flex-row animate-pulse ring-2 ring-red-700 duration-500 ring-opacity-50 focus:ring-offset-2 hover:ring-opacity-100  items-center justify-center w-1/4 bg-gradient-to-r from-gold via-litegold to-golden text-2xl rounded-lg h-24"
-            >
-              <span className="mr-1">
-                {" "}
-                <Image src="/login.png" alt="login" width="50" height="50" />
-              </span>{" "}
-              <p className="text-xs md:text-base lg:text-lg">Login</p>
-            </a>
-            <a
-              href="https://188.166.211.237/invite/zaz8dmz"
-              className=" flex flex-col md:flex-row animate-pulse items-center ring-2 duration-500 ring-red-700 ring-opacity-50 focus:ring-offset-2 hover:ring-opacity-100 justify-center w-1/4 bg-gradient-to-r from-gold via-litegold to-golden text-2xl rounded-lg h-24"
-            >
-              <span className="mr-1">
-                {" "}
-                <Image src="/register.png" alt="login" width="50" height="50" />
-              </span>{" "}
-              <p className="text-xs md:text-base lg:text-lg">Daftar</p>
-            </a>
-            <a
-              href="https://direct.lc.chat/13023216/"
-              className=" flex flex-col md:flex-row items-center justify-center w-1/4 bg-gradient-to-r from-gold via-litegold to-golden text-2xl rounded-lg h-24"
-            >
-              <span className="mr-1">
-                {" "}
-                <Image src="/cs.png" alt="login" width="50" height="50" />
-              </span>{" "}
-              <p className="text-xs md:text-base lg:text-lg">Kontak CS</p>
-            </a>
-            <a
-              href="https://wa.me/6282122014931"
-              className=" flex flex-col md:flex-row items-center justify-center w-1/4 bg-gradient-to-r from-gold via-litegold to-golden text-2xl rounded-lg h-24"
-            >
-              <span className="mr-1">
-                {" "}
-                <Image src="/wa.png" alt="login" width="50" height="50" />
-              </span>{" "}
-              <p className="text-xs md:text-base lg:text-lg">Whatsapp</p>
-            </a>
           </div>
         </div>
 
